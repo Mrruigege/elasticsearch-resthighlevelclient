@@ -26,4 +26,8 @@ public interface EsService {
     List<Goods> boolQuery(EsReqVO reqVO);
 
     void aggregationQuery(EsReqVO reqVO);
+
+    void scroll();
+
+    void searchAfter();
 }

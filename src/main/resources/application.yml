@@ -2,5 +2,5 @@ server:
   port: 8087
 
 elasticsearch:
-  host: 42.193.215.205
+  host: 182.61.6.40
   port: 9200

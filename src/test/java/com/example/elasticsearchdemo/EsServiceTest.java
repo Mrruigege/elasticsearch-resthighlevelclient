@@ -110,4 +110,14 @@ public class EsServiceTest {
         EsReqVO reqVO = new EsReqVO();
         esService.aggregationQuery(reqVO);
     }
+
+    @Test
+    public void scrollTest() {
+        esService.scroll();
+    }
+
+    @Test
+    public void testSearchAfter() {
+        esService.searchAfter();
+    }
 }
